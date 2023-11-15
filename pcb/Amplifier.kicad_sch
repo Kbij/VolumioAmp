@@ -319,10 +319,23 @@
   )
 
 
+  (hierarchical_label "DIN" (shape input) (at 48.26 105.41 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 377fc707-feb3-495d-a6e6-d220fcc6eaa0)
+  )
+  (hierarchical_label "BCK" (shape input) (at 48.26 100.33 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 6696c2c1-e030-4609-8ed3-bc569200b4c8)
+  )
+  (hierarchical_label "LRCK" (shape input) (at 48.26 96.52 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a152d443-c216-4e1e-a59c-ffcabf5ba9dd)
+  )
+
   (symbol (lib_id "MA12040PXUMA1:MA12040PXUMA1") (at 125.73 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87b5e2bd-b072-416d-be5b-7198d6f7694f)
-    (property "Reference" "U6" (at 125.73 45.72 0)
+    (property "Reference" "U9" (at 125.73 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MA12040PXUMA1" (at 125.73 48.26 0)
@@ -439,7 +452,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/ecbd0217-ab04-4196-9487-2acaa32ad17c"
-          (reference "U6") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
