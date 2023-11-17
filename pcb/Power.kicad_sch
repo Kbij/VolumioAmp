@@ -1309,7 +1309,7 @@
   (symbol (lib_id "power:GND") (at 49.022 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 008cb583-5c4b-4d20-bea6-fd5c75dff8bd)
-    (property "Reference" "#PWR020" (at 49.022 63.5 0)
+    (property "Reference" "#PWR021" (at 49.022 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.149 61.5442 0)
@@ -1325,7 +1325,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1578,7 +1578,7 @@
   (symbol (lib_id "power:GND") (at 235.712 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23809eda-0ad8-47de-974f-7aa24b73c100)
-    (property "Reference" "#PWR027" (at 235.712 128.27 0)
+    (property "Reference" "#PWR028" (at 235.712 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 235.839 126.3142 0)
@@ -1594,7 +1594,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1802,7 +1802,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 172.72 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4abcf414-9628-4382-b8ba-5bad43f24579)
-    (property "Reference" "TP6" (at 174.625 107.823 0)
+    (property "Reference" "TP8" (at 174.625 107.823 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 174.625 110.363 0)
@@ -1830,7 +1830,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "TP6") (unit 1)
+          (reference "TP8") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1844,7 +1844,7 @@
   (symbol (lib_id "power:GND") (at 109.982 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a209af7-898d-4e74-9723-b7c1051dbc10)
-    (property "Reference" "#PWR022" (at 109.982 57.15 0)
+    (property "Reference" "#PWR023" (at 109.982 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 110.109 55.1942 0)
@@ -1860,7 +1860,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1966,7 +1966,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 109.982 38.608 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88e30b39-65e8-420e-b2f2-466cd36ff703)
-    (property "Reference" "TP5" (at 111.4552 35.6108 0)
+    (property "Reference" "TP7" (at 111.4552 35.6108 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 111.4552 37.9222 0)
@@ -1994,7 +1994,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "TP5") (unit 1)
+          (reference "TP7") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2008,7 +2008,7 @@
   (symbol (lib_id "power:GND") (at 198.12 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b22382c-c41c-4ae7-8e6e-a9148779fdbd)
-    (property "Reference" "#PWR026" (at 198.12 71.12 0)
+    (property "Reference" "#PWR027" (at 198.12 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 198.247 69.1642 0)
@@ -2024,7 +2024,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2038,7 +2038,7 @@
   (symbol (lib_id "power:GND") (at 71.247 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95c83841-e4cf-44c0-8195-5b6db4fc4e6f)
-    (property "Reference" "#PWR021" (at 71.247 68.58 0)
+    (property "Reference" "#PWR022" (at 71.247 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.374 66.6242 0)
@@ -2054,7 +2054,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2068,7 +2068,7 @@
   (symbol (lib_id "power:GND") (at 125.095 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ba6f28b-2f2d-41c8-8085-f83955f34022)
-    (property "Reference" "#PWR023" (at 125.095 154.94 0)
+    (property "Reference" "#PWR024" (at 125.095 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 125.222 152.9842 0)
@@ -2084,7 +2084,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2510,7 +2510,7 @@
   (symbol (lib_id "power:GND") (at 191.77 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7ccf51a-069f-4f81-80be-1002d96d927d)
-    (property "Reference" "#PWR024" (at 191.77 140.97 0)
+    (property "Reference" "#PWR025" (at 191.77 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 191.897 139.0142 0)
@@ -2526,7 +2526,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2638,7 +2638,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 191.77 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7510ef9-18eb-45c0-91f1-411524cf2b86)
-    (property "Reference" "TP7" (at 193.2432 131.6228 0)
+    (property "Reference" "TP9" (at 193.2432 131.6228 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 193.2432 133.9342 0)
@@ -2666,7 +2666,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "TP7") (unit 1)
+          (reference "TP9") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2870,7 +2870,7 @@
   (symbol (lib_id "power:GND") (at 192.405 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e830935e-c04d-4e07-a860-7aeb9ea38542)
-    (property "Reference" "#PWR025" (at 192.405 128.27 0)
+    (property "Reference" "#PWR026" (at 192.405 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 192.532 126.3142 0)
@@ -2886,7 +2886,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3094,7 +3094,7 @@
   (symbol (lib_id "power:GND") (at 33.02 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa74148b-a578-4dd8-a697-145a038cbbda)
-    (property "Reference" "#PWR019" (at 33.02 143.51 0)
+    (property "Reference" "#PWR020" (at 33.02 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 33.147 141.5542 0)
@@ -3110,7 +3110,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
       (project "CM4IOv5"
