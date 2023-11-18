@@ -355,7 +355,7 @@
     (property "Value" "MA12040PXUMA1" (at 125.73 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Libraries:QFN50P900X900X90-65N" (at 125.73 96.52 0)
+    (property "Footprint" "Footprints:QFN50P900X900X90-65N" (at 125.73 96.52 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 125.73 96.52 0)
