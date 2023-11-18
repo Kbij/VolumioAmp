@@ -1640,7 +1640,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 34.29 45.72 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e91d16d-7c7f-4e48-a5a4-1d93a216e658)
-    (property "Reference" "J5" (at 34.29 36.83 0)
+    (property "Reference" "J3" (at 34.29 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "24v Input" (at 34.29 39.37 0)
@@ -1657,7 +1657,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "J5") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -1764,7 +1764,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 172.72 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4abcf414-9628-4382-b8ba-5bad43f24579)
-    (property "Reference" "TP8" (at 174.625 107.823 0)
+    (property "Reference" "TP11" (at 174.625 107.823 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 174.625 110.363 0)
@@ -1792,7 +1792,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "TP8") (unit 1)
+          (reference "TP11") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1928,7 +1928,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 109.982 38.608 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88e30b39-65e8-420e-b2f2-466cd36ff703)
-    (property "Reference" "TP7" (at 111.4552 35.6108 0)
+    (property "Reference" "TP10" (at 111.4552 35.6108 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 111.4552 37.9222 0)
@@ -1956,7 +1956,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "TP7") (unit 1)
+          (reference "TP10") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2600,7 +2600,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 191.77 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7510ef9-18eb-45c0-91f1-411524cf2b86)
-    (property "Reference" "TP9" (at 193.2432 131.6228 0)
+    (property "Reference" "TP12" (at 193.2432 131.6228 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 193.2432 133.9342 0)
@@ -2628,7 +2628,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "TP9") (unit 1)
+          (reference "TP12") (unit 1)
         )
       )
       (project "CM4IOv5"
