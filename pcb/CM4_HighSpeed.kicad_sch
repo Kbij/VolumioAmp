@@ -1369,7 +1369,7 @@
     (property "Value" "ComputeModule4" (at 100.33 26.5684 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "CM4IO:Raspberry-Pi-4-Compute-Module" (at 102.87 123.19 0)
+    (property "Footprint" "Footprints:Raspberry-Pi-4-Compute-Module" (at 102.87 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 102.87 123.19 0)
