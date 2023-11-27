@@ -957,6 +957,46 @@
         )
       )
     )
+    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "#FLG" (at 0 1.905 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "PWR_FLAG" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "flag power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "PWR_FLAG_0_0"
+        (pin power_out line (at 0 0 90) (length 0)
+          (name "pwr" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "PWR_FLAG_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+            (xy -1.016 1.905)
+            (xy 0 2.54)
+            (xy 1.016 1.905)
+            (xy 0 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+    )
     (symbol "pspice:INDUCTOR" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "L" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -1072,6 +1112,9 @@
   )
   (junction (at 222.25 111.76) (diameter 1.016) (color 0 0 0 0)
     (uuid 6d5ba974-3c79-4623-8027-b093062717f5)
+  )
+  (junction (at 101.6 43.18) (diameter 0) (color 0 0 0 0)
+    (uuid 6e300840-b2c7-49e1-9f53-65eecfb9149e)
   )
   (junction (at 59.69 133.35) (diameter 1.016) (color 0 0 0 0)
     (uuid 6f1442cd-45ba-4e0a-be76-2d3f2d821e3e)
@@ -1209,6 +1252,10 @@
     (stroke (width 0) (type solid))
     (uuid 28722a9f-1ffe-405d-8241-90a5e82cfaa0)
   )
+  (wire (pts (xy 101.6 43.18) (xy 110.49 43.18))
+    (stroke (width 0) (type solid))
+    (uuid 28e630c5-7e08-4c08-bd72-750b3f818b27)
+  )
   (wire (pts (xy 212.09 54.61) (xy 212.09 62.23))
     (stroke (width 0) (type default))
     (uuid 302fbb1a-f40a-447d-99c0-90a78ac6bd0f)
@@ -1322,10 +1369,6 @@
   (wire (pts (xy 203.2 119.38) (xy 193.04 119.38))
     (stroke (width 0) (type solid))
     (uuid 88d4232c-1437-4951-8c12-8d5e7f4b7bb4)
-  )
-  (wire (pts (xy 228.6 52.07) (xy 241.3 52.07))
-    (stroke (width 0) (type default))
-    (uuid 89b7ee29-a9de-437a-a88c-9036ef80c91e)
   )
   (wire (pts (xy 198.12 62.23) (xy 198.12 64.77))
     (stroke (width 0) (type default))
@@ -1468,6 +1511,10 @@
     (stroke (width 0) (type solid))
     (uuid c754ced0-bd7b-4f7c-9686-1a77d5f10ef0)
   )
+  (wire (pts (xy 228.6 52.07) (xy 241.3 52.07))
+    (stroke (width 0) (type default))
+    (uuid cb9fd8c6-74b6-4927-8881-df46cf9c26c2)
+  )
   (wire (pts (xy 212.09 62.23) (xy 217.17 62.23))
     (stroke (width 0) (type default))
     (uuid cd2fc215-2229-4788-a3ec-2ecebdd8cea8)
@@ -1476,7 +1523,7 @@
     (stroke (width 0) (type solid))
     (uuid cd336098-9dd8-4f14-b7d5-14096b9e5bf7)
   )
-  (wire (pts (xy 91.44 43.18) (xy 110.49 43.18))
+  (wire (pts (xy 91.44 43.18) (xy 101.6 43.18))
     (stroke (width 0) (type solid))
     (uuid cffaaf1f-d861-44f3-ac2a-c6930a66cc02)
   )
@@ -1867,10 +1914,40 @@
     )
   )
 
+  (symbol (lib_name "GND_3") (lib_id "power:GND") (at 124.46 58.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 21dad338-46e8-4ee2-a96d-ce1561349754)
+    (property "Reference" "#PWR024" (at 124.46 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 124.587 62.8142 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 124.46 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 124.46 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5189f8d0-7924-479b-a729-982417fac283))
+    (instances
+      (project "VolumioAmp"
+        (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+      (project "CM4IOv5"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005d31f999"
+          (reference "#PWR043") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_name "GND_5") (lib_id "power:GND") (at 236.22 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23809eda-0ad8-47de-974f-7aa24b73c100)
-    (property "Reference" "#PWR028" (at 236.22 128.27 0)
+    (property "Reference" "#PWR029" (at 236.22 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.347 126.3142 0)
@@ -1886,7 +1963,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2073,7 +2150,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 172.72 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4abcf414-9628-4382-b8ba-5bad43f24579)
-    (property "Reference" "TP11" (at 174.625 107.823 0)
+    (property "Reference" "TP13" (at 174.625 107.823 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 174.625 110.363 0)
@@ -2101,7 +2178,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "TP11") (unit 1)
+          (reference "TP13") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2238,7 +2315,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 110.49 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88e30b39-65e8-420e-b2f2-466cd36ff703)
-    (property "Reference" "TP10" (at 111.9632 35.1028 0)
+    (property "Reference" "TP12" (at 111.9632 35.1028 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 111.9632 37.4142 0)
@@ -2266,7 +2343,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "TP10") (unit 1)
+          (reference "TP12") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2277,10 +2354,35 @@
     )
   )
 
+  (symbol (lib_id "power:PWR_FLAG") (at 124.46 58.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 88fb8cc3-4a26-4304-87ec-b1531dcc5f73)
+    (property "Reference" "#FLG02" (at 124.46 56.515 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 124.46 53.34 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 124.46 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 124.46 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3d9629e1-9967-451f-9efc-bbd5fc683cb9))
+    (instances
+      (project "VolumioAmp"
+        (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 198.12 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b22382c-c41c-4ae7-8e6e-a9148779fdbd)
-    (property "Reference" "#PWR027" (at 198.12 71.12 0)
+    (property "Reference" "#PWR028" (at 198.12 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 198.247 69.1642 0)
@@ -2296,7 +2398,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2340,7 +2442,7 @@
   (symbol (lib_name "GND_7") (lib_id "power:GND") (at 125.73 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ba6f28b-2f2d-41c8-8085-f83955f34022)
-    (property "Reference" "#PWR024" (at 125.73 154.94 0)
+    (property "Reference" "#PWR025" (at 125.73 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 125.857 152.9842 0)
@@ -2356,7 +2458,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2555,6 +2657,31 @@
       (project "CM4IOv5"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005d31f999"
           (reference "R28") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 236.22 111.76 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a2b0a6e7-8560-40a7-91c3-8ddb0df68e67)
+    (property "Reference" "#FLG03" (at 236.22 109.855 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 236.22 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 236.22 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 236.22 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c7cca906-b26b-4c58-82e5-c25c77f68301))
+    (instances
+      (project "VolumioAmp"
+        (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -2782,7 +2909,7 @@
   (symbol (lib_name "GND_8") (lib_id "power:GND") (at 191.77 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7ccf51a-069f-4f81-80be-1002d96d927d)
-    (property "Reference" "#PWR025" (at 191.77 140.97 0)
+    (property "Reference" "#PWR026" (at 191.77 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 191.897 139.0142 0)
@@ -2798,7 +2925,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2858,6 +2985,31 @@
     )
   )
 
+  (symbol (lib_id "power:PWR_FLAG") (at 101.6 43.18 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d2f7c3d7-e714-4ba3-b2fa-944ee779f1e4)
+    (property "Reference" "#FLG01" (at 101.6 41.275 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 101.6 38.1 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 101.6 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 101.6 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ff7cf9a4-1337-430c-bfab-57147fffda68))
+    (instances
+      (project "VolumioAmp"
+        (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 118.11 111.76 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d35b2b34-cf89-4ede-a77e-2dfbc57b61a3)
@@ -2910,7 +3062,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 191.77 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7510ef9-18eb-45c0-91f1-411524cf2b86)
-    (property "Reference" "TP12" (at 193.2432 131.6228 0)
+    (property "Reference" "TP14" (at 193.2432 131.6228 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 193.2432 133.9342 0)
@@ -2938,7 +3090,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "TP12") (unit 1)
+          (reference "TP14") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3142,7 +3294,7 @@
   (symbol (lib_name "GND_4") (lib_id "power:GND") (at 193.04 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e830935e-c04d-4e07-a860-7aeb9ea38542)
-    (property "Reference" "#PWR026" (at 193.04 128.27 0)
+    (property "Reference" "#PWR027" (at 193.04 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.167 126.3142 0)
@@ -3158,7 +3310,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3172,7 +3324,7 @@
   (symbol (lib_id "CM4IO:AP64351") (at 125.73 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e88383ff-1332-4b2d-b8d2-1969172d9a88)
-    (property "Reference" "U7" (at 126.365 116.4844 0)
+    (property "Reference" "U6" (at 126.365 116.4844 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AP64501SP-13" (at 126.365 118.7958 0)
@@ -3211,7 +3363,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "U7") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3311,7 +3463,7 @@
   (symbol (lib_id "Regulator_Linear:LT1761-3.3") (at 198.12 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6842233-dada-4d28-bb64-c609b673312b)
-    (property "Reference" "U8" (at 198.12 44.45 0)
+    (property "Reference" "U7" (at 198.12 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LT1761-3.3" (at 198.12 46.99 0)
@@ -3331,7 +3483,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "U8") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )

@@ -816,7 +816,7 @@
           (reference "#PWR031") (unit 1)
         )
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/434094c9-79fb-49fe-9eff-d35a4d1836d1"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -849,7 +849,7 @@
           (reference "#PWR029") (unit 1)
         )
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/434094c9-79fb-49fe-9eff-d35a4d1836d1"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1043,7 +1043,7 @@
           (reference "#PWR030") (unit 1)
         )
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/434094c9-79fb-49fe-9eff-d35a4d1836d1"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1105,7 +1105,7 @@
           (reference "#PWR028") (unit 1)
         )
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/434094c9-79fb-49fe-9eff-d35a4d1836d1"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
       (project "CM4IOv5"
