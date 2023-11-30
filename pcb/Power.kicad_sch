@@ -1648,7 +1648,7 @@
   (symbol (lib_name "GND_2") (lib_id "power:GND") (at 49.53 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 008cb583-5c4b-4d20-bea6-fd5c75dff8bd)
-    (property "Reference" "#PWR021" (at 49.53 63.5 0)
+    (property "Reference" "#PWR022" (at 49.53 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.657 61.5442 0)
@@ -1664,7 +1664,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1678,7 +1678,7 @@
   (symbol (lib_id "Device:C") (at 203.2 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00baf88c-53ee-42fd-948c-beb9cebcbb6c)
-    (property "Reference" "C25" (at 206.121 114.4016 0)
+    (property "Reference" "C28" (at 206.121 114.4016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 206.121 116.713 0)
@@ -1713,7 +1713,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C25") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1727,7 +1727,7 @@
   (symbol (lib_id "Device:C") (at 193.04 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02c49220-a689-402f-8dcb-38f631fc4dc6)
-    (property "Reference" "C24" (at 195.961 114.4016 0)
+    (property "Reference" "C27" (at 195.961 114.4016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 195.961 116.713 0)
@@ -1762,7 +1762,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C24") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1776,7 +1776,7 @@
   (symbol (lib_id "Device:C") (at 173.99 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 07e92524-5a7b-4cb3-8010-25cf2efb79b2)
-    (property "Reference" "C23" (at 176.53 120.65 0)
+    (property "Reference" "C26" (at 176.53 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "nf" (at 176.53 125.73 0)
@@ -1808,7 +1808,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C23") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1822,7 +1822,7 @@
   (symbol (lib_id "Device:R") (at 163.83 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 158e40b2-5a11-4d5e-a4c7-12129643eb8b)
-    (property "Reference" "R20" (at 158.75 121.793 0)
+    (property "Reference" "R21" (at 158.75 121.793 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "12K 1%" (at 154.94 124.333 0)
@@ -1854,7 +1854,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "R20") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1868,7 +1868,7 @@
   (symbol (lib_id "Device:C") (at 71.12 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d16bc5b-675a-437c-af59-feeb1328f0f2)
-    (property "Reference" "C13" (at 74.041 128.3716 0)
+    (property "Reference" "C16" (at 74.041 128.3716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u 35v" (at 67.31 135.128 0)
@@ -1903,7 +1903,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C13") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1917,7 +1917,7 @@
   (symbol (lib_name "GND_3") (lib_id "power:GND") (at 124.46 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 21dad338-46e8-4ee2-a96d-ce1561349754)
-    (property "Reference" "#PWR024" (at 124.46 64.77 0)
+    (property "Reference" "#PWR025" (at 124.46 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.587 62.8142 0)
@@ -1933,7 +1933,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1947,7 +1947,7 @@
   (symbol (lib_name "GND_5") (lib_id "power:GND") (at 236.22 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23809eda-0ad8-47de-974f-7aa24b73c100)
-    (property "Reference" "#PWR029" (at 236.22 128.27 0)
+    (property "Reference" "#PWR030" (at 236.22 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.347 126.3142 0)
@@ -1963,7 +1963,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1977,7 +1977,7 @@
   (symbol (lib_id "Device:C") (at 59.69 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36f68b53-2803-43c7-885c-709564c97ec2)
-    (property "Reference" "C12" (at 62.611 128.3716 0)
+    (property "Reference" "C15" (at 62.611 128.3716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u 35v" (at 56.642 135.128 0)
@@ -2012,7 +2012,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C12") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2052,7 +2052,7 @@
   (symbol (lib_id "Device:C") (at 81.28 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f759942-59be-4f1b-b310-d68906ec94fc)
-    (property "Reference" "C14" (at 84.201 128.3716 0)
+    (property "Reference" "C17" (at 84.201 128.3716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u 35v" (at 77.47 135.128 0)
@@ -2087,7 +2087,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C14") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2101,7 +2101,7 @@
   (symbol (lib_id "Device:C") (at 110.49 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4677492d-300d-4c5c-968a-3c80425bf5e0)
-    (property "Reference" "C18" (at 113.411 45.8216 0)
+    (property "Reference" "C21" (at 113.411 45.8216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u 35v" (at 113.411 48.133 0)
@@ -2136,7 +2136,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C18") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2150,13 +2150,13 @@
   (symbol (lib_id "Connector:TestPoint") (at 172.72 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4abcf414-9628-4382-b8ba-5bad43f24579)
-    (property "Reference" "TP13" (at 174.625 107.823 0)
+    (property "Reference" "TP16" (at 174.625 107.823 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 174.625 110.363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" (at 177.8 111.76 0)
+    (property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm" (at 177.8 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 177.8 111.76 0)
@@ -2178,7 +2178,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "TP13") (unit 1)
+          (reference "TP16") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2192,7 +2192,7 @@
   (symbol (lib_name "GND_3") (lib_id "power:GND") (at 110.49 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a209af7-898d-4e74-9723-b7c1051dbc10)
-    (property "Reference" "#PWR023" (at 110.49 57.15 0)
+    (property "Reference" "#PWR024" (at 110.49 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 110.617 55.1942 0)
@@ -2208,7 +2208,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2269,7 +2269,7 @@
   (symbol (lib_id "Device:R") (at 153.67 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8069a64f-1b26-437e-a270-27fbf2e692eb)
-    (property "Reference" "R19" (at 155.448 134.7216 0)
+    (property "Reference" "R20" (at 155.448 134.7216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20K 1%" (at 155.448 137.033 0)
@@ -2301,7 +2301,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "R19") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2315,7 +2315,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 110.49 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88e30b39-65e8-420e-b2f2-466cd36ff703)
-    (property "Reference" "TP12" (at 111.9632 35.1028 0)
+    (property "Reference" "TP15" (at 111.9632 35.1028 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 111.9632 37.4142 0)
@@ -2343,7 +2343,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "TP12") (unit 1)
+          (reference "TP15") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2382,7 +2382,7 @@
   (symbol (lib_id "power:GND") (at 198.12 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b22382c-c41c-4ae7-8e6e-a9148779fdbd)
-    (property "Reference" "#PWR028" (at 198.12 71.12 0)
+    (property "Reference" "#PWR029" (at 198.12 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 198.247 69.1642 0)
@@ -2398,7 +2398,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2412,7 +2412,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 71.12 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95c83841-e4cf-44c0-8195-5b6db4fc4e6f)
-    (property "Reference" "#PWR022" (at 71.12 68.58 0)
+    (property "Reference" "#PWR023" (at 71.12 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.247 66.6242 0)
@@ -2428,7 +2428,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2442,7 +2442,7 @@
   (symbol (lib_name "GND_7") (lib_id "power:GND") (at 125.73 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ba6f28b-2f2d-41c8-8085-f83955f34022)
-    (property "Reference" "#PWR025" (at 125.73 154.94 0)
+    (property "Reference" "#PWR026" (at 125.73 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 125.857 152.9842 0)
@@ -2458,7 +2458,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2472,7 +2472,7 @@
   (symbol (lib_id "Device:C") (at 143.51 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9df06583-67e9-4e36-96b1-b8c2a7348128)
-    (property "Reference" "C21" (at 146.05 137.16 0)
+    (property "Reference" "C24" (at 146.05 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "nf" (at 146.05 142.24 0)
@@ -2504,7 +2504,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C21") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2567,7 +2567,7 @@
   (symbol (lib_id "Device:C") (at 113.03 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f1ab6f0-f05f-4f71-9deb-6e8b670a73ec)
-    (property "Reference" "C19" (at 104.14 116.205 0)
+    (property "Reference" "C22" (at 104.14 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 104.14 118.999 0)
@@ -2602,7 +2602,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C19") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2616,7 +2616,7 @@
   (symbol (lib_id "Device:R") (at 163.83 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a13988e1-720b-4ff0-b5af-6e0bb1b72526)
-    (property "Reference" "R21" (at 165.608 141.0716 0)
+    (property "Reference" "R22" (at 165.608 141.0716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2K 1%" (at 165.608 143.383 0)
@@ -2651,7 +2651,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "R21") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2690,7 +2690,7 @@
   (symbol (lib_id "Device:C") (at 222.25 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae0d1e39-5908-4881-86a5-53213b5a20a3)
-    (property "Reference" "C28" (at 225.171 114.4016 0)
+    (property "Reference" "C31" (at 225.171 114.4016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 225.171 116.713 0)
@@ -2725,7 +2725,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C28") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2739,7 +2739,7 @@
   (symbol (lib_id "Device:C") (at 49.53 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b9025465-917b-458f-bddc-1b558df4ed3f)
-    (property "Reference" "C10" (at 50.8 46.99 0)
+    (property "Reference" "C13" (at 50.8 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n 100v" (at 45.72 55.88 0)
@@ -2771,7 +2771,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C10") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2785,7 +2785,7 @@
   (symbol (lib_id "Device:C") (at 102.87 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bbf143af-3875-46e1-8959-274ceaceda69)
-    (property "Reference" "C17" (at 105.791 128.3716 0)
+    (property "Reference" "C20" (at 105.791 128.3716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u 35v" (at 100.076 135.128 0)
@@ -2820,7 +2820,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C17") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2834,7 +2834,7 @@
   (symbol (lib_id "Device:C") (at 228.6 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2443286-7ea8-4419-bf4f-080363c3bd9d)
-    (property "Reference" "C29" (at 232.41 57.15 0)
+    (property "Reference" "C32" (at 232.41 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 232.41 59.69 0)
@@ -2851,7 +2851,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C29") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -2860,7 +2860,7 @@
   (symbol (lib_id "Device:C") (at 49.53 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c721c7e1-0285-4c93-a2cc-a95b04fba236)
-    (property "Reference" "C11" (at 52.451 128.3716 0)
+    (property "Reference" "C14" (at 52.451 128.3716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u 35v" (at 45.974 135.128 0)
@@ -2895,7 +2895,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C11") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2909,7 +2909,7 @@
   (symbol (lib_name "GND_8") (lib_id "power:GND") (at 191.77 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7ccf51a-069f-4f81-80be-1002d96d927d)
-    (property "Reference" "#PWR026" (at 191.77 140.97 0)
+    (property "Reference" "#PWR027" (at 191.77 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 191.897 139.0142 0)
@@ -2925,7 +2925,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2939,7 +2939,7 @@
   (symbol (lib_id "Device:C") (at 91.44 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9c21d8d-2adf-4cd6-82df-5949ae8c9bc0)
-    (property "Reference" "C16" (at 94.361 128.3716 0)
+    (property "Reference" "C19" (at 94.361 128.3716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u 35v" (at 88.392 135.128 0)
@@ -2974,7 +2974,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C16") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3013,7 +3013,7 @@
   (symbol (lib_id "Device:R") (at 118.11 111.76 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d35b2b34-cf89-4ede-a77e-2dfbc57b61a3)
-    (property "Reference" "R18" (at 116.84 108.585 90)
+    (property "Reference" "R19" (at 116.84 108.585 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10R" (at 116.84 106.68 90)
@@ -3048,7 +3048,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "R18") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3062,13 +3062,13 @@
   (symbol (lib_id "Connector:TestPoint") (at 191.77 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7510ef9-18eb-45c0-91f1-411524cf2b86)
-    (property "Reference" "TP14" (at 193.2432 131.6228 0)
+    (property "Reference" "TP17" (at 193.2432 131.6228 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 193.2432 133.9342 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" (at 196.85 134.62 0)
+    (property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm" (at 196.85 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 196.85 134.62 0)
@@ -3090,7 +3090,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "TP14") (unit 1)
+          (reference "TP17") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3104,7 +3104,7 @@
   (symbol (lib_id "Device:C") (at 153.67 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9025142-c8a1-4d4a-bfd2-7077f34430cc)
-    (property "Reference" "C22" (at 156.21 140.97 0)
+    (property "Reference" "C25" (at 156.21 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.2nF" (at 156.21 146.05 0)
@@ -3136,7 +3136,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C22") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3150,7 +3150,7 @@
   (symbol (lib_id "Device:C") (at 91.44 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da72df6a-9a53-4dfe-b3ff-1df3ae708cf6)
-    (property "Reference" "C15" (at 93.98 45.72 0)
+    (property "Reference" "C18" (at 93.98 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 92.71 50.165 0)
@@ -3185,7 +3185,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C15") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3199,7 +3199,7 @@
   (symbol (lib_id "Device:R") (at 71.12 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e51c77ba-a1ca-409b-a317-608f13963a2b)
-    (property "Reference" "R17" (at 72.898 57.2516 0)
+    (property "Reference" "R18" (at 72.898 57.2516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "12K 1%" (at 72.898 59.563 0)
@@ -3231,7 +3231,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "R17") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3245,7 +3245,7 @@
   (symbol (lib_id "Device:C") (at 213.36 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5681765-1510-40d2-ac44-d6ba03b31acd)
-    (property "Reference" "C26" (at 216.281 114.4016 0)
+    (property "Reference" "C29" (at 216.281 114.4016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 216.281 116.713 0)
@@ -3280,7 +3280,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C26") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3294,7 +3294,7 @@
   (symbol (lib_name "GND_4") (lib_id "power:GND") (at 193.04 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e830935e-c04d-4e07-a860-7aeb9ea38542)
-    (property "Reference" "#PWR027" (at 193.04 128.27 0)
+    (property "Reference" "#PWR028" (at 193.04 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.167 126.3142 0)
@@ -3310,7 +3310,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3423,7 +3423,7 @@
   (symbol (lib_id "Device:CP") (at 236.22 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f501cd48-80dd-4081-af60-52234319975a)
-    (property "Reference" "C30" (at 239.2172 114.427 0)
+    (property "Reference" "C33" (at 239.2172 114.427 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 239.2172 116.713 0)
@@ -3449,7 +3449,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C30") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3492,7 +3492,7 @@
   (symbol (lib_id "Device:C") (at 217.17 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f79d56b2-b1d1-4949-a358-7f4c95584e6d)
-    (property "Reference" "C27" (at 220.98 57.15 0)
+    (property "Reference" "C30" (at 220.98 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (at 220.98 59.69 0)
@@ -3509,7 +3509,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C27") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -3518,7 +3518,7 @@
   (symbol (lib_name "GND_6") (lib_id "power:GND") (at 33.02 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa74148b-a578-4dd8-a697-145a038cbbda)
-    (property "Reference" "#PWR020" (at 33.02 143.51 0)
+    (property "Reference" "#PWR021" (at 33.02 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 33.147 141.5542 0)
@@ -3534,7 +3534,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3548,7 +3548,7 @@
   (symbol (lib_id "Device:C") (at 116.84 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid feeade0d-6d8c-4c4a-980b-9490d7178139)
-    (property "Reference" "C20" (at 119.38 137.16 0)
+    (property "Reference" "C23" (at 119.38 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 119.38 142.24 0)
@@ -3583,7 +3583,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "C20") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
       (project "CM4IOv5"

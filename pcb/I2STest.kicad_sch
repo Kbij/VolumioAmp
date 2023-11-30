@@ -784,7 +784,7 @@
           (reference "#PWR031") (unit 1)
         )
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/434094c9-79fb-49fe-9eff-d35a4d1836d1"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -804,7 +804,7 @@
     (property "Value" "TestPoint" (at 195.707 57.785 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" (at 194.31 60.96 0)
+    (property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm" (at 194.31 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 194.31 60.96 0)
@@ -829,7 +829,7 @@
           (reference "TP13") (unit 1)
         )
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/434094c9-79fb-49fe-9eff-d35a4d1836d1"
-          (reference "TP22") (unit 1)
+          (reference "TP25") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -862,7 +862,7 @@
           (reference "#PWR029") (unit 1)
         )
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/434094c9-79fb-49fe-9eff-d35a4d1836d1"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -999,7 +999,7 @@
           (reference "R23") (unit 1)
         )
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/434094c9-79fb-49fe-9eff-d35a4d1836d1"
-          (reference "R23") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -1027,7 +1027,7 @@
           (reference "#PWR030") (unit 1)
         )
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/434094c9-79fb-49fe-9eff-d35a4d1836d1"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1061,7 +1061,7 @@
           (reference "C32") (unit 1)
         )
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/434094c9-79fb-49fe-9eff-d35a4d1836d1"
-          (reference "C47") (unit 1)
+          (reference "C50") (unit 1)
         )
       )
     )
@@ -1089,7 +1089,7 @@
           (reference "#PWR028") (unit 1)
         )
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/434094c9-79fb-49fe-9eff-d35a4d1836d1"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1109,7 +1109,7 @@
     (property "Value" "TestPoint" (at 195.707 45.085 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" (at 194.31 48.26 0)
+    (property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm" (at 194.31 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 194.31 48.26 0)
@@ -1134,7 +1134,7 @@
           (reference "TP13") (unit 1)
         )
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/434094c9-79fb-49fe-9eff-d35a4d1836d1"
-          (reference "TP21") (unit 1)
+          (reference "TP24") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1168,7 +1168,7 @@
           (reference "C31") (unit 1)
         )
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/434094c9-79fb-49fe-9eff-d35a4d1836d1"
-          (reference "C46") (unit 1)
+          (reference "C49") (unit 1)
         )
       )
     )
@@ -1197,7 +1197,7 @@
           (reference "R22") (unit 1)
         )
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/434094c9-79fb-49fe-9eff-d35a4d1836d1"
-          (reference "R22") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -1226,7 +1226,7 @@
           (reference "C33") (unit 1)
         )
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/434094c9-79fb-49fe-9eff-d35a4d1836d1"
-          (reference "C48") (unit 1)
+          (reference "C51") (unit 1)
         )
       )
     )
