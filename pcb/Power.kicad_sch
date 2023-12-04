@@ -2150,7 +2150,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 172.72 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4abcf414-9628-4382-b8ba-5bad43f24579)
-    (property "Reference" "TP16" (at 174.625 107.823 0)
+    (property "Reference" "TP15" (at 174.625 107.823 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 174.625 110.363 0)
@@ -2178,7 +2178,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "TP16") (unit 1)
+          (reference "TP15") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2315,7 +2315,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 110.49 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88e30b39-65e8-420e-b2f2-466cd36ff703)
-    (property "Reference" "TP15" (at 111.9632 35.1028 0)
+    (property "Reference" "TP14" (at 111.9632 35.1028 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 111.9632 37.4142 0)
@@ -2343,7 +2343,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "TP15") (unit 1)
+          (reference "TP14") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3062,7 +3062,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 191.77 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7510ef9-18eb-45c0-91f1-411524cf2b86)
-    (property "Reference" "TP17" (at 193.2432 131.6228 0)
+    (property "Reference" "TP16" (at 193.2432 131.6228 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 193.2432 133.9342 0)
@@ -3090,7 +3090,7 @@
     (instances
       (project "VolumioAmp"
         (path "/c639bae0-d26f-43ee-9e8c-ca060284bd0b/97b9f385-290b-4a5e-9fd5-e8b1b07223d1"
-          (reference "TP17") (unit 1)
+          (reference "TP16") (unit 1)
         )
       )
       (project "CM4IOv5"
