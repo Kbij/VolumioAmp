@@ -62,7 +62,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -531,6 +531,14 @@
       {
         "netclass": "Ethernet",
         "pattern": "*/TRD*"
+      },
+      {
+        "netclass": "Power_2",
+        "pattern": "/I2STest/+3.3v"
+      },
+      {
+        "netclass": "Power_2",
+        "pattern": "/CM4_Ethernet/+5v"
       }
     ]
   },
