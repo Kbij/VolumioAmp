@@ -1717,6 +1717,9 @@
     (property "Field8" "120889581" (at 153.67 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Farnell" "1576464" (at 153.67 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 270577d6-26af-4f42-9e49-a983efe43149))
     (pin "2" (uuid bc257547-cc53-4a3d-b8b1-362502e4d9c5))
     (instances
