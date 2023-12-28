@@ -1,0 +1,28 @@
+#!/bin/bash
+alias BEGINCOMMENT="if [ ]; then"
+alias ENDCOMMENT="fi"
+cwd=$(pwd)
+
+args=("$@")
+#echo arguments to the shell
+
+#cd $cwd/toolchain
+#wget https://releases.linaro.org/components/toolchain/binaries/6.3-2017.05/arm-linux-gnueabihf/gcc-linaro-6.3.1-2017.05-i686_arm-linux-gnueabihf.tar.xz
+#tar -xf gcc-linaro-6.3.1-2017.05-i686_arm-linux-gnueabihf.tar.xz
+
+#Build libraries
+#cd libraries
+#./build arm
+#./build x86
+
+
+cd $cwd/build-x86
+cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=toolchain-x86.cmake ..
+make 
+
+cd $cwd/build-arm
+cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=toolchain-arm.cmake ..
+make
+
+
+
