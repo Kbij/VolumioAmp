@@ -2,3 +2,7 @@
 /build-x86
 /libraries
 /toolchain
+/bin-x86
+/bin-arm
+.vscode
+

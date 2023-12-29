@@ -10,17 +10,17 @@ cwd=$(pwd)
 args=("$@")
 #echo arguments to the shell
 
-if [ -z ${args[0]+x} ]; then 
-	echo "Please specify one of the plaforms"; 
+if [ -z ${args[0]+x} ]; then
+	echo "Please specify one of the plaforms";
 	echo "arm";
 	echo "x86";
 	exit 1
 fi
 
-if [ "${args[0]}" == "arm" ]; then 
+if [ "${args[0]}" == "arm" ]; then
 	platform=arm
 fi
-if [ "${args[0]}" == "x86" ]; then 
+if [ "${args[0]}" == "x86" ]; then
 	platform=x86
 fi
 
@@ -117,6 +117,7 @@ make install
 cd $cwd
 
 
+
 #Check for tinyxml2
 if [ ! -f ./buildlibs/tinyxml2/CMakeLists.txt ]; then
     echo "Git tinyxml2 gtest"
@@ -135,10 +136,3 @@ fi
 make
 make install
 cd $cwd
-
-
-
-
-
-
-

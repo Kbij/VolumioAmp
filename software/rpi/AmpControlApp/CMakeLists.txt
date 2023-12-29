@@ -1,12 +1,10 @@
-cmake_minimum_required(VERSION 2.8)
-
 INCLUDE_DIRECTORIES( ./src )
 INCLUDE_DIRECTORIES( ${SYSROOT}/include )
 file(GLOB app_SRC
     "./src/*.h"
     "./src/*.cpp"
 )
-add_executable (RgbClock ${app_SRC})
+add_executable (AmpControl ${app_SRC})
 
 target_link_libraries (AmpControl AmpControlLib)
 target_link_libraries (AmpControl pthread)

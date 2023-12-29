@@ -1,6 +1,6 @@
 
 #set( CMAKE_VERBOSE_MAKEFILE on )
-set( RGBCLOCK_PLATFORM "arm")
+set( AMPCONTROL_PLATFORM "arm")
 
 # this one is important
 SET(CMAKE_SYSTEM_NAME Linux)
