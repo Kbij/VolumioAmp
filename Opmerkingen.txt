@@ -1,0 +1,8 @@
+R19, R20: niet juiste waarde (controleren)
+3.3v gebruiken voor leds ethernet, activity en power (momenteel niet correct verbonden)
+C1 verkeerde footprint
+
+Ethernet: buffers toevoegen, green/yellow wisselen
+DAC: VCCL/ VCCR : enkel via cap naar +3.3v
+
+10uF capacitors voor amp: aangepast naar: 1867958
