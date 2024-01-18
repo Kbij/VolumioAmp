@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "cmake.buildDirectory": "${workspaceRoot}/build-x86",
+    "cmake.configureSettings": {
+      "CMAKE_BUILD_TYPE": "Debug",
+      "CMAKE_TOOLCHAIN_FILE": "toolchain-x86.cmake"
+    },
+    "C_Cpp.default.cppStandard": "c++11",
+    "cmake.configureOnOpen": true,
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "C_Cpp.default.includePath": [
+      "${workspaceRoot}",
+      "${workspaceRoot}/libraries/sysroot-x86"
+    ],
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.associations": {
+      "typeindex": "cpp",
+      "typeinfo": "cpp"
+    }
+  }
+}
